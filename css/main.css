@@ -1,0 +1,145 @@
+body,html{
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+header{
+    height: 75px;
+    background-color: transparent;
+}
+#logo{
+    height: 75px;
+    width: auto;
+    float: left;
+    background-color: transparent;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/headphones12.jpg");
+}
+.hero{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    margin-top: 10%;
+    width: 35%;
+    color: black;
+    background-color: transparent;
+}
+.hero-text button{
+    background-color: transparent;
+    outline: none;
+    margin-left: 10%;    
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+}
+.hero-text button:hover{
+    background-color: burlywood;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    color: black;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+#navlinks {
+    float: right;
+}
+#search {
+    height: 20px;
+    width: auto;
+    background-color: transparent;
+}
+#navlinks a{
+    margin-top: 20px;
+    display: inline;
+    color: rgb(216, 208, 208);
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: bold;
+    float: left;
+}
+#navlinks a:hover{
+    color: burlywood;
+    text-decoration: none;
+}
+.featured-products{
+    clear: both;
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-width: 33%;
+}
+#feature-heading{
+    text-align: center;
+}
+#headphone1{
+    width: 100%;
+    height: auto;
+}
+#headphone2{
+    width: 100%;
+    height: auto;
+}
+#headphone3{
+    width: 100%;
+    height: auto;
+}
+.featured-products p,h3{
+    text-align: center;
+}
+.shopnow{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shopnow button{
+    margin-left: 25px;
+    background-color: transparent;
+    outline: none;
+    margin-left: 25px;    
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    width: 10%;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.shopnow button:hover{
+    background-color: burlywood;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    color: black;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+.featured-products{
+    clear: both;
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-width: 33%;
+}
