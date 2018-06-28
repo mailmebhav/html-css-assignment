@@ -137,9 +137,22 @@ header{
     cursor: pointer;
     border: none;
 }
-.featured-products{
+.information1, .information2{
     clear: both;
     column-count: 3;
     column-rule: 1px solid black;
     column-width: 33%;
+}
+#wireless, #battery, #noisecancelling, #control-buttons, #mic, #devices{
+    margin: 0 auto;
+    text-align: center;
+}
+#wirelessicon,#batteryicon, #headphoneicon, #controlicon, #micicon, #devicesicon {
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+    background-size: cover;
+}
+#wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading, #devices-heading{
+    text-align: center;
 }
