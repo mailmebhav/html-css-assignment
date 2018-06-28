@@ -248,3 +248,33 @@ body,html {
 #email, #email a {
     text-decoration: none;
 }
+.home {
+    text-align: center;
+    
+}
+.home button{
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    width: 10%;
+    cursor: pointer;
+    color: black;
+    border: none;
+}
+.home button:hover{
+    background-color: burlywood;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+}
