@@ -156,3 +156,18 @@ header{
 #wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading, #devices-heading{
     text-align: center;
 }
+.facebookblue{
+    color: #3B5998 ;
+}
+.twitterblue{
+    color: #1DA1F2;
+}
+.google-color{
+    color: #DB4437;
+}
+.youtube-color{
+    color: #CC181E;
+}
+.faviconlinks {
+    text-decoration: none;
+}
