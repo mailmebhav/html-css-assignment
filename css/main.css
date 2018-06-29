@@ -98,6 +98,10 @@ p {
     color: burlywood;
     text-decoration: none;
 }
+.nav-backdrop {
+    background-color: darkgray;
+    opacity: 0.7;
+}
 .featured-products{
     clear: both;
     column-count: 3;
@@ -118,20 +122,6 @@ p {
 #headphone3{
     width: 100%;
     height: auto;
-}
-.nav-backdrop {
-    position: sticky;
-    /* max-height: px; */
-    /* z-index: 2; */
-    top: 0;
-    /* overflow-y: auto; */
-    /* bottom: 0; */
-    width: 100%;
-    /* display: flex; */
-    height: 75px;
-    background: black;
-    /* overflow-y: auto; */
-    opacity: 0.7;
 }
 .featured-products p,h3{
     text-align: center;
@@ -212,9 +202,6 @@ p {
     /* display: flex; */
     margin-top: 20px;
 }
-/* .services div{
-    border: 1px solid lightgray;
-} */
 .services #location button, .services #newsletter button, .services #support button{
     background-color: transparent;
     outline: none;
@@ -259,6 +246,8 @@ p {
     column-gap: 50px;
     display: flex;
     width: 100%;
+    bottom: 0;
+    /* position: fixed; */
     /* margin-top: 0; */
     /* padding-top: 0; */
 }
@@ -296,6 +285,7 @@ footer p{
 footer{
     background-color: lightgray;
     opacity: 0.9;
+    bottom: 0;
 }
 #footerlogo {
     text-align: center;
@@ -321,44 +311,87 @@ footer h6{
     text-align: center;
     height: 50px;
     width: 100%;
-}
-.mainwrapper {
-    width: 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin: 0 auto;
-    background-color: bisque;
-}
-#email, #email a {
-    text-decoration: none;
-}
-.home {
-    text-align: center;
+    margin-top: 10px;       }
+    .mainwrapper {
+        width: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        /* background-color: bisque; */
+    }
+    #email, #email a {
+        text-decoration: none;
+    }
+    .home {
+        text-align: center;
+        
+    }
+    .home button{
+        background-color: transparent;
+        outline: none;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        overflow: hidden;
+        width: 10%;
+        cursor: pointer;
+        color: black;
+        border: none;
+    }
+    .home button:hover{
+        background-color: black;
+        box-sizing: border-box;
+        font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+        color: white;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid black;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+    }
+    .contain1{
+        text-align: center;
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .left-contain {
+        margin-left: 0 !important;
+    }
+    .left-contain h3, .right-contain h3{
+        letter-spacing: 3px;
+    }
+    .storesheader {
+        height: 75px;
+        background-color: transparent;
+        
+        position: fixed;
+        /* z-index: -1;  */
+        /* opacity: 0.5; */
+        top: 0;
+        /* bottom: 0; */
+        width: 100%;
+    }
+    .storesheader #navlinks a{
+        margin-top: 20px;
+        display: inline;
+        color: black;
+        text-decoration: none;
+        padding-right: 20px;
+        font-weight: bold;
+        float: left;
+    }
     
-}
-.home button{
-    background-color: transparent;
-    outline: none;
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    overflow: hidden;
-    width: 10%;
-    cursor: pointer;
-    color: black;
-    border: none;
-}
-.home button:hover{
-    background-color: burlywood;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    color: white;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
-}
+    .storesheader #navlinks a:hover{
+        color: burlywood;
+        text-decoration: none;
+    }
+    .storebg {
+        width: 100%;
+        /* background-image: url("../img/office.png"); */
+        /* background-size: cover; */
+    }
