@@ -1,456 +1,456 @@
 /* Resetting the font and margins */
 body,html {
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    height: 100%;
-    margin: 0 0 0 0;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 100%;
+  margin: 0 0 0 0;
 }
 /* Font Size for all the paragraph tags */
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 /* Header for index.html */
 header {
-    height: 75px;
-    background-color: transparent;
-    position: fixed;
-    /* z-index: -1;  */
-    /* opacity: 0.2; */
-    top: 0;
-    /* bottom: 0; */
-    width: 100%;
+  height: 75px;
+  background-color: transparent;
+  position: fixed;
+  /* z-index: -1;  */
+  /* opacity: 0.2; */
+  top: 0;
+  /* bottom: 0; */
+  width: 100%;
 }
 /* Logo */
 #logo {
-    height: 75px;
-    width: auto;
-    float: left;
-    background-color: transparent;
+  height: 75px;
+  width: auto;
+  float: left;
+  background-color: transparent;
 }
 .wrapper {
-    /* clear: both; */
-    /* position: absolute  ; */
-    /* padding-top: -75px; */
-    /* z-index: 2; */
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat !important;
-    background-image: url("../img/headphones12.jpg");
-    padding-left: 0;
+  /* clear: both; */
+  /* position: absolute  ; */
+  /* padding-top: -75px; */
+  /* z-index: 2; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-image: url("../img/headphones12.jpg");
+  padding-left: 0;
 }
 /* hero element text */
 .hero-text {
-    text-align: left;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 10px;
-    width: 35%;
-    color: black;
-    background-color: transparent;
+  text-align: left;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10px;
+  width: 35%;
+  color: black;
+  background-color: transparent;
 }
 /* View details button on hero element */
 .hero-text button{
-    background-color: black;
-    outline: none;
-    margin-left: 10%;    
-    height: 20px;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    overflow: hidden;
-    width: 30%;
-    color: burlywood;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
+  background-color: black;
+  outline: none;
+  margin-left: 10%;    
+  height: 20px;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  width: 30%;
+  color: burlywood;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
 .hero-text button:hover{
-    background-color: burlywood;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    color: black;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+  background-color: burlywood;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  color: black;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }
 /* navbar links */
 #navlinks {
-    float: right;
+  float: right;
 }
 /* search button on nav bar */
 #search {
-    height: 20px;
-    width: auto;
-    background-color: transparent;
+  height: 20px;
+  width: auto;
+  background-color: transparent;
 }
 #navlinks a{
-    margin-top: 20px;
-    display: inline;
-    color: rgb(216, 208, 208);
-    text-decoration: none;
-    padding-right: 20px;
-    font-weight: bold;
-    float: left;
+  margin-top: 20px;
+  display: inline;
+  color: rgb(216, 208, 208);
+  text-decoration: none;
+  padding-right: 20px;
+  font-weight: bold;
+  float: left;
 }
 #navlinks a:hover{
-    color: burlywood;
-    text-decoration: none;
+  color: burlywood;
+  text-decoration: none;
 }
 .nav-backdrop {
-    background-color: darkgray;
-    opacity: 0.7;
+  background-color: darkgray;
+  opacity: 0.7;
 }
 /* Featured products section */
 .featured-products{
-    clear: both;
-    column-count: 3;
-    column-rule: 1px solid black;
-    column-width: 33%;
+  clear: both;
+  column-count: 3;
+  column-rule: 1px solid black;
+  column-width: 33%;
 }
 #feature-heading{
-    text-align: center;
+  text-align: center;
 }
 /* column 1 in featured products */
 #headphone1{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 /* column 2 in featured products */
 #headphone2{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 /* column 3 in featured products */
 #headphone3{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .featured-products p,h3{
-    text-align: center;
+  text-align: center;
 }
 /* Shop now div */
 .shopnow{
-    height: 50px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* shop now button */
 .shopnow button{
-    margin-left: 25px;
-    background-color: transparent;
-    outline: none;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    overflow: hidden;
-    width: 10%;
-    cursor: pointer;
-    color: white;
-    border: none;
+  margin-left: 25px;
+  background-color: transparent;
+  outline: none;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  width: 10%;
+  cursor: pointer;
+  color: white;
+  border: none;
 }
 .shopnow button:hover{
-    background-color: burlywood;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    color: black;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+  background-color: burlywood;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  color: black;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }
 /* information section  */
 .information1, .information2{
-    clear: both;
-    /* column-count: 3; */
-    display: flex;
-    column-rule: 1px solid black;
-    column-width: 33%;
-    margin-top: 20px;
+  clear: both;
+  /* column-count: 3; */
+  display: flex;
+  column-rule: 1px solid black;
+  column-width: 33%;
+  margin-top: 20px;
 }
 /* individual divs in information section */
 #wireless, #battery, #noisecancelling, #control-buttons, #mic, #devices {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 /* icons for information section */
 #wirelessicon,#batteryicon, #headphoneicon, #controlicon, #micicon, #devicesicon {
-    margin: 0 auto;
-    width: 10%;
-    height: 15%;
-    background-size: cover;
+  margin: 0 auto;
+  width: 10%;
+  height: 15%;
+  background-size: cover;
 }
 /* heading in information section */
 #wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading {
-    text-align: center;
+  text-align: center;
 }
 /* facebook button */
 .facebookblue{
-    color: #3B5998 ;
+  color: #3B5998 ;
 }
 /* twitter button */
 .twitterblue{
-    color: #1DA1F2;
+  color: #1DA1F2;
 }
 /* google plus button */
 .google-color{
-    color: #DB4437;
+  color: #DB4437;
 }
 /* youtube button */
 .youtube-color{
-    color: #CC181E;
+  color: #CC181E;
 }
 /* wrapper for favicons */
 .faviconlinks {
-    text-decoration: none;
+  text-decoration: none;
 }
 .faviconiconlinks{
-    text-align: center;
+  text-align: center;
 }
 /* services section */
 .services{
-    /* column-count: 3; */
-    display: flex;  
-    margin-top: 20px;
+  /* column-count: 3; */
+  display: flex;  
+  margin-top: 20px;
 }
 /* buttons in services section */
 .services #location button, .services #newsletter button, .services #support button{
-    background-color: transparent;
-    outline: none;
-    text-align: center;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    overflow: hidden;
-    width: 50%;
-    cursor: pointer;
-    color: black;
-    border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  width: 50%;
+  cursor: pointer;
+  color: black;
+  border: none;
 }
 .services #location button:hover, .services #newsletter button:hover, .services #support button:hover{
-    background-color: burlywood;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    color: white;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+  background-color: burlywood;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }
 /* divs in services section */
 #location, #newsletter, #support{
-    margin: 0 auto;
-    padding-top: 10px;
-    text-align: center;
-    width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  width: 80%;
 }
 /* icons in service section */
 #locationicon, #newslettericon, #supporticon{
-    margin: 0 auto;
-    width: 10%;
-    height: 15%;
-    background-size: cover;
+  margin: 0 auto;
+  width: 10%;
+  height: 15%;
+  background-size: cover;
 }
 #devices-heading, #newsletter-heading, #support-heading{
-    text-align: center;
+  text-align: center;
 }
 /* footer div */
 .footerdiv1{
-    column-count: 3;
-    column-gap: 50px;
-    display: flex;
-    width: 100%;
-    bottom: 0;
-    /* position: fixed; */
-    /* margin-top: 0; */
-    /* padding-top: 0; */
+  column-count: 3;
+  column-gap: 50px;
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  /* position: fixed; */
+  /* margin-top: 0; */
+  /* padding-top: 0; */
 }
 .coldiv {
-    /* width: 33%; */
-    word-wrap: break-word;
-    text-align: justify;
-    width: 33%;
-    /* display: inline-block; */
-    margin-left: 10px;
-    /* float: left; */
+  /* width: 33%; */
+  word-wrap: break-word;
+  text-align: justify;
+  width: 33%;
+  /* display: inline-block; */
+  margin-left: 10px;
+  /* float: left; */
 }
 /* chicago section */
 #chicago{
-    /* width: 33%; */
-    /* display: table-cell; */
-    /* float: left; */
-    margin-left: 10px;
+  /* width: 33%; */
+  /* display: table-cell; */
+  /* float: left; */
+  margin-left: 10px;
 }
 #footerlinks{
-    /* width: 33%; */
-    /* float: left; */
-    display: block;
-    padding-top: 10px;
-    margin-left: 10px;
+  /* width: 33%; */
+  /* float: left; */
+  display: block;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 .links {
-    display: inline-block;
+  display: inline-block;
 }
 footer p{
-    font-size: 9px;
+  font-size: 9px;
 }
 .coldiv a{
-    text-align: center;
+  text-align: center;
 }
 /* footer tag */
 footer{
-    background-color: lightgray;
-    opacity: 0.9;
-    bottom: 0;
+  background-color: lightgray;
+  opacity: 0.9;
+  bottom: 0;
 }
 #footerlogo {
-    text-align: center;
-    margin: 0 auto;
-    background-size: cover;
-    display: block;
-    width: 25%;
-    height: 60px;
-    /* padding: 0 auto; */
+  text-align: center;
+  margin: 0 auto;
+  background-size: cover;
+  display: block;
+  width: 25%;
+  height: 60px;
+  /* padding: 0 auto; */
 }
 footer h6{
-    text-align: center;
-    /* margin-top: 10px; */
-    /* word-wrap: break-word; */
+  text-align: center;
+  /* margin-top: 10px; */
+  /* word-wrap: break-word; */
 }
 #contact-header {
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    margin-top: 10px;       
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;       
 }
 .mainwrapper {
-    width: 40%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    /* background-color: bisque; */
-    /* background-image: url("../img/office.jpg") */
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* background-color: bisque; */
+  /* background-image: url("../img/office.jpg") */
 }
 #email, #email a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* home button in contact.html */
 .home {
-    text-align: center;
+  text-align: center;
 }
 /* GO BACK BUTTON */
 .home button{
-    background-color: transparent;
-    outline: none;
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    overflow: hidden;
-    width: 10%;
-    cursor: pointer;
-    color: black;
-    border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  width: 10%;
+  cursor: pointer;
+  color: black;
+  border: none;
 }
 .home button:hover{
-    background-color: black;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    color: white;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }
 /* container in stores.html */
 .contain1{
-    text-align: center;
-    margin-top: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* left grid in container */
 .left-contain {
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 .left-contain h3, .right-contain h3{
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 .header2 {
-    height: 75px;
-    background-color: black;
-    
-    position: fixed;
-    /* z-index: -1;  */
-    /* opacity: 0.5; */
-    top: 0;
-    /* bottom: 0; */
-    width: 100%;
+  height: 75px;
+  background-color: black;
+  
+  position: fixed;
+  /* z-index: -1;  */
+  /* opacity: 0.5; */
+  top: 0;
+  /* bottom: 0; */
+  width: 100%;
 }
 .storesheader #navlinks a{
-    margin-top: 20px;
-    display: inline;
-    color: black;
-    text-decoration: none;
-    padding-right: 20px;
-    font-weight: bold;
-    float: left;
+  margin-top: 20px;
+  display: inline;
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+  font-weight: bold;
+  float: left;
 }
 
 .storesheader #navlinks a:hover{
-    color: burlywood;
-    text-decoration: none;
+  color: burlywood;
+  text-decoration: none;
 }
 .storebg {
-    width: 100%;
-    /* height: 100%; */
-    background-image: url("../img/office.png");
-    background-size: cover;
+  width: 100%;
+  /* height: 100%; */
+  background-image: url("../img/office.png");
+  background-size: cover;
 }
 #storeimg {
-    width: 100%;
-    background-size: cover;
-    display: inline;
+  width: 100%;
+  background-size: cover;
+  display: inline;
 }
 /* headphones table div */
 .catalogue {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin-bottom: 20px;
 }
 .catalogue-item{
-    background-size: cover;
-    width: 100%;
-    /* display: block; */
-    margin: auto;
-    height: auto;
+  background-size: cover;
+  width: 100%;
+  /* display: block; */
+  margin: auto;
+  height: auto;
 } 
 .headphonesmain{
-    margin-top: 75px;
+  margin-top: 75px;
 }
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card a {
-    cursor: default;
+  cursor: default;
 }
 #headphonetitle {
-    text-align: center;
+  text-align: center;
 }
