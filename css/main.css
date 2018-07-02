@@ -1,12 +1,15 @@
+/* Resetting the font and margins */
 body,html {
     font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
     font-size: 20px;
     height: 100%;
     margin: 0 0 0 0;
 }
+/* Font Size for all the paragraph tags */
 p {
     font-size: 15px;
 }
+/* Header for index.html */
 header {
     height: 75px;
     background-color: transparent;
@@ -17,6 +20,7 @@ header {
     /* bottom: 0; */
     width: 100%;
 }
+/* Logo */
 #logo {
     height: 75px;
     width: auto;
@@ -35,6 +39,7 @@ header {
     background-image: url("../img/headphones12.jpg");
     padding-left: 0;
 }
+/* hero element text */
 .hero-text {
     text-align: left;
     position: absolute;
@@ -44,6 +49,7 @@ header {
     color: black;
     background-color: transparent;
 }
+/* View details button on hero element */
 .hero-text button{
     background-color: black;
     outline: none;
@@ -70,9 +76,11 @@ header {
     cursor: pointer;
     border: none;
 }
+/* navbar links */
 #navlinks {
     float: right;
 }
+/* search button on nav bar */
 #search {
     height: 20px;
     width: auto;
@@ -95,6 +103,7 @@ header {
     background-color: darkgray;
     opacity: 0.7;
 }
+/* Featured products section */
 .featured-products{
     clear: both;
     column-count: 3;
@@ -104,14 +113,17 @@ header {
 #feature-heading{
     text-align: center;
 }
+/* column 1 in featured products */
 #headphone1{
     width: 100%;
     height: auto;
 }
+/* column 2 in featured products */
 #headphone2{
     width: 100%;
     height: auto;
 }
+/* column 3 in featured products */
 #headphone3{
     width: 100%;
     height: auto;
@@ -119,6 +131,7 @@ header {
 .featured-products p,h3{
     text-align: center;
 }
+/* Shop now div */
 .shopnow{
     height: 50px;
     width: 100%;
@@ -128,6 +141,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+/* shop now button */
 .shopnow button{
     margin-left: 25px;
     background-color: transparent;
@@ -152,6 +166,7 @@ header {
     cursor: pointer;
     border: none;
 }
+/* information section  */
 .information1, .information2{
     clear: both;
     /* column-count: 3; */
@@ -160,43 +175,52 @@ header {
     column-width: 33%;
     margin-top: 20px;
 }
-
+/* individual divs in information section */
 #wireless, #battery, #noisecancelling, #control-buttons, #mic, #devices {
     margin: 0 auto;
     text-align: center;
 }
+/* icons for information section */
 #wirelessicon,#batteryicon, #headphoneicon, #controlicon, #micicon, #devicesicon {
     margin: 0 auto;
     width: 10%;
     height: 15%;
     background-size: cover;
 }
+/* heading in information section */
 #wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading {
     text-align: center;
 }
+/* facebook button */
 .facebookblue{
     color: #3B5998 ;
 }
+/* twitter button */
 .twitterblue{
     color: #1DA1F2;
 }
+/* google plus button */
 .google-color{
     color: #DB4437;
 }
+/* youtube button */
 .youtube-color{
     color: #CC181E;
 }
+/* wrapper for favicons */
 .faviconlinks {
     text-decoration: none;
 }
 .faviconiconlinks{
     text-align: center;
 }
+/* services section */
 .services{
     /* column-count: 3; */
     display: flex;  
     margin-top: 20px;
 }
+/* buttons in services section */
 .services #location button, .services #newsletter button, .services #support button{
     background-color: transparent;
     outline: none;
@@ -221,12 +245,14 @@ header {
     cursor: pointer;
     border: none;
 }
+/* divs in services section */
 #location, #newsletter, #support{
     margin: 0 auto;
     padding-top: 10px;
     text-align: center;
     width: 80%;
 }
+/* icons in service section */
 #locationicon, #newslettericon, #supporticon{
     margin: 0 auto;
     width: 10%;
@@ -236,6 +262,7 @@ header {
 #devices-heading, #newsletter-heading, #support-heading{
     text-align: center;
 }
+/* footer div */
 .footerdiv1{
     column-count: 3;
     column-gap: 50px;
@@ -255,6 +282,7 @@ header {
     margin-left: 10px;
     /* float: left; */
 }
+/* chicago section */
 #chicago{
     /* width: 33%; */
     /* display: table-cell; */
@@ -277,6 +305,7 @@ footer p{
 .coldiv a{
     text-align: center;
 }
+/* footer tag */
 footer{
     background-color: lightgray;
     opacity: 0.9;
@@ -315,10 +344,11 @@ footer h6{
 #email, #email a {
     text-decoration: none;
 }
+/* home button in contact.html */
 .home {
     text-align: center;
-    
 }
+/* GO BACK BUTTON */
 .home button{
     background-color: transparent;
     outline: none;
@@ -344,12 +374,14 @@ footer h6{
     cursor: pointer;
     border: none;
 }
+/* container in stores.html */
 .contain1{
     text-align: center;
     margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+/* left grid in container */
 .left-contain {
     margin-left: 0 !important;
 }
@@ -392,6 +424,7 @@ footer h6{
     background-size: cover;
     display: inline;
 }
+/* headphones table div */
 .catalogue {
     width: 100%;
     text-align: center;
