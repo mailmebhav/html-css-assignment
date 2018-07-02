@@ -1,10 +1,6 @@
----
-Author: Bhavin Patel
----
-
 # Canvas Inc.
 
-This is a website for Canvas Inc. which provides information regarding wireless headphones.
+This is a website for Canvas Inc. which provides information regarding wireless headphones. 
 
 ## Getting Started
 ```
