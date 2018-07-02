@@ -418,3 +418,6 @@ footer h6{
 .card a {
     cursor: default;
 }
+#headphonetitle {
+    text-align: center;
+}
