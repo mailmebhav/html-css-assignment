@@ -107,17 +107,7 @@ header {
   text-align: center;
 }
 /* column 1 in featured products */
-#headphone1{
-  width: 100%;
-  height: auto;
-}
-/* column 2 in featured products */
-#headphone2{
-  width: 100%;
-  height: auto;
-}
-/* column 3 in featured products */
-#headphone3{
+.headphoneimg{
   width: 100%;
   height: auto;
 }
@@ -160,7 +150,7 @@ header {
   border: none;
 }
 /* information section  */
-.information1, .information2{
+.information{
   clear: both;
   display: flex;
   column-rule: 1px solid black;
@@ -168,19 +158,19 @@ header {
   margin-top: 20px;
 }
 /* individual divs in information section */
-#wireless, #battery, #noisecancelling, #control-buttons, #mic, #devices {
+.informationdiv {
   margin: 0 auto;
   text-align: center;
 }
 /* icons for information section */
-#wirelessicon,#batteryicon, #headphoneicon, #controlicon, #micicon, #devicesicon {
+.informationicon {
   margin: 0 auto;
   width: 10%;
   height: 15%;
   background-size: cover;
 }
 /* heading in information section */
-#wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading {
+.info-heading {
   text-align: center;
 }
 /* facebook button */
@@ -210,9 +200,10 @@ header {
 .services{
   display: flex;  
   margin-top: 20px;
+  padding-bottom: 10px;
 }
 /* buttons in services section */
-.services #location button, .services #newsletter button, .services #support button{
+.servicesdiv button {
   background-color: transparent;
   outline: none;
   text-align: center;
@@ -224,7 +215,7 @@ header {
   color: black;
   border: none;
 }
-.services #location button:hover, .services #newsletter button:hover, .services #support button:hover{
+.servicesdiv button:hover{
   background-color: burlywood;
   box-sizing: border-box;
   font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
@@ -237,20 +228,20 @@ header {
   border: none;
 }
 /* divs in services section */
-#location, #newsletter, #support{
+.servicesdiv {
   margin: 0 auto;
   padding-top: 10px;
   text-align: center;
   width: 80%;
 }
 /* icons in service section */
-#locationicon, #newslettericon, #supporticon{
+.servicesicon{
   margin: 0 auto;
   width: 10%;
   height: 15%;
   background-size: cover;
 }
-#devices-heading, #newsletter-heading, #support-heading{
+.services-heading{
   text-align: center;
 }
 /* footer div */
@@ -267,13 +258,15 @@ header {
   width: 33%;
   margin-left: 10px;
 }
+.coldiv h6, .coldiv img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* chicago section */
 #chicago{
   margin-left: 10px;
 }
 #footerlinks{
-  /* width: 33%; */
-  /* float: left; */
   display: block;
   padding-top: 10px;
   margin-left: 10px;
@@ -293,13 +286,16 @@ footer{
   opacity: 0.9;
   bottom: 0;
 }
+#copyrights{
+  text-align: center;
+}
 #footerlogo {
   text-align: center;
   margin: 0 auto;
   background-size: cover;
   display: block;
-  width: 25%;
-  height: 60px;
+  width: 15%;
+  height: 40px;
 }
 footer h6{
   text-align: center;
@@ -318,7 +314,7 @@ footer h6{
   margin: 0 auto;
   margin-top: 50px;
 }
-#email, #email a {
+.email {
   text-decoration: none;
 }
 /* home button in contact.html */
