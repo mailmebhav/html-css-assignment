@@ -35,13 +35,6 @@ p {
     background-image: url("../img/headphones12.jpg");
     padding-left: 0;
 }
-/* .hero { 
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat !important;
-    background-size: cover;
-    position: relative;
-} */
 .hero-text {
     text-align: left;
     position: absolute;
@@ -161,11 +154,13 @@ p {
 }
 .information1, .information2{
     clear: both;
-    column-count: 3;
+    /* column-count: 3; */
+    display: flex;
     column-rule: 1px solid black;
     column-width: 33%;
     margin-top: 20px;
 }
+
 #wireless, #battery, #noisecancelling, #control-buttons, #mic, #devices {
     margin: 0 auto;
     text-align: center;
@@ -173,7 +168,7 @@ p {
 #wirelessicon,#batteryicon, #headphoneicon, #controlicon, #micicon, #devicesicon {
     margin: 0 auto;
     width: 10%;
-    height: 10%;
+    height: 15%;
     background-size: cover;
 }
 #wireless-heading, #battery-heading, #headphone-heading, #control-heading, #mic-heading {
@@ -198,8 +193,8 @@ p {
     text-align: center;
 }
 .services{
-    column-count: 3;
-    /* display: flex; */
+    /* column-count: 3; */
+    display: flex;  
     margin-top: 20px;
 }
 .services #location button, .services #newsletter button, .services #support button{
@@ -209,7 +204,7 @@ p {
     font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
     text-decoration: none;
     overflow: hidden;
-    width: 30%;
+    width: 50%;
     cursor: pointer;s
     color: black;
     border: none;
@@ -235,7 +230,7 @@ p {
 #locationicon, #newslettericon, #supporticon{
     margin: 0 auto;
     width: 10%;
-    height: 10%;
+    height: 15%;
     background-size: cover;
 }
 #devices-heading, #newsletter-heading, #support-heading{
