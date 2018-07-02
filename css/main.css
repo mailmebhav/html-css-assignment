@@ -210,7 +210,7 @@ p {
     text-decoration: none;
     overflow: hidden;
     width: 30%;
-    cursor: pointer;
+    cursor: pointer;s
     color: black;
     border: none;
 }
@@ -320,6 +320,7 @@ footer h6{
         margin: 0 auto;
         margin-top: 50px;
         /* background-color: bisque; */
+        /* background-image: url("../img/office.jpg") */
     }
     #email, #email a {
         text-decoration: none;
@@ -392,6 +393,12 @@ footer h6{
     }
     .storebg {
         width: 100%;
-        /* background-image: url("../img/office.png"); */
-        /* background-size: cover; */
+        /* height: 100%; */
+        background-image: url("../img/office.png");
+        background-size: cover;
+    }
+    #storeimg {
+        width: 100%;
+        background-size: cover;
+        display: inline;
     }

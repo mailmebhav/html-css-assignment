@@ -1,6 +1,6 @@
 function sticky_relocate() {
     var window_top = $(window).scrollTop();
-    var div_top = $('#sticky-anchor').offset().top;
+    var div_top = $('#stickyheader').offset().top;
     if (window_top > div_top) {
       $('#sticky').addClass('stick');
     } else {
