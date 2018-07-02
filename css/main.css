@@ -300,12 +300,6 @@ footer{
 footer h6{
   text-align: center;
 }
-#contact-header {
-  text-align: center;
-  height: 50px;
-  width: 100%;
-  margin-top: 10px;       
-}
 .mainwrapper {
   width: 40%;
   padding-top: 10px;
@@ -384,7 +378,6 @@ footer h6{
 }
 .storebg {
   width: 100%;
-  background-image: url("../img/office.png");
   background-size: cover;
 }
 #storeimg {
@@ -393,6 +386,9 @@ footer h6{
   display: inline;
 }
 /* headphones table div */
+address {
+  font-size: 14px;
+}
 .catalogue {
   width: 100%;
   text-align: center;
