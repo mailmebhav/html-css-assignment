@@ -23,6 +23,7 @@ header {
   width: auto;
   float: left;
   background-color: transparent;
+  padding-left: 10px;
 }
 .wrapper {
   width: 100%;
