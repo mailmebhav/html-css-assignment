@@ -395,6 +395,8 @@ footer h6{
 .catalogue {
     width: 100%;
     text-align: center;
+    display: flex;
+    margin-bottom: 20px;
 }
 .catalogue-item{
     background-size: cover;
@@ -405,5 +407,14 @@ footer h6{
 } 
 .headphonesmain{
     margin-top: 75px;
-    background-color: #e3e3e3;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card .cardlinks {
+    cursor: pointer;
 }
